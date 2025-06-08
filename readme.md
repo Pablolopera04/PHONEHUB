@@ -1,6 +1,6 @@
 # PhoneHub - Tienda de Smartphones
 
-Este proyecto es una tienda en línea inspirada en el diseño de Stripe.com para la venta de celulares. Ha sido desarrollado como un proyecto educativo para el taller final.
+Este proyecto es una tienda en línea inspirada en el diseño de Stripe.com para la venta de celulares. Ha sido desarrollado como un proyecto educativo para mi taller final.
 
 ## Estructura del Proyecto
 
@@ -40,7 +40,7 @@ phonehub/
 - HTML5 semántico
 - CSS3 (con variables CSS para una fácil personalización)
 - JavaScript vanilla (sin frameworks)
-- LocalStorage para persistencia de datos del carrito
+- Vercel para el servicio de hosting 
 
 ## Buenas Prácticas Implementadas
 
@@ -73,14 +73,14 @@ phonehub/
    - **VSCode:** Instala la extensión "Live Server" y haz clic en "Go Live".
 
 3. **Accede al sitio:**
-   Abre tu navegador y ve a `http://localhost:8000` (o el puerto que esté usando tu servidor).
+   Abre tu navegador y ve a `https://phonehub-five.vercel.app/` (o el puerto que esté usando tu servidor).
 
 ## Personalización
 
 ### Colores
-Para cambiar la paleta de colores, modifica las variables CSS en el archivo `css/styles.css`:
+Para cambiar la paleta de colores, modifica las variables CSS en el archivo `css/styles.css` y `css/product-page.css`:
 
-```css
+
 :root {
     --primary: #635BFF; /* Color principal */
     --primary-light: #7A73FF; /* Versión más clara del color principal */
