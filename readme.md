@@ -1,6 +1,6 @@
 # PhoneHub - Tienda de Smartphones
 
-Este proyecto es una tienda en línea inspirada en el diseño de Stripe.com para la venta de celulares. Ha sido desarrollado como un proyecto educativo para un taller universitario.
+Este proyecto es una tienda en línea inspirada en el diseño de Stripe.com para la venta de celulares. Ha sido desarrollado como un proyecto educativo para el taller final.
 
 ## Estructura del Proyecto
 
@@ -47,22 +47,16 @@ phonehub/
 - Uso de etiquetas semánticas (header, nav, main, section, article, footer)
 - Atributos de accesibilidad (aria-labels, roles)
 - Estructura organizada y jerárquica
-- Metaetiquetas para SEO
 
 ### CSS
 - Organización por componentes
 - Variables CSS para una fácil personalización
-- Metodología BEM simplificada
-- Uso de normalize.css para consistencia entre navegadores
-- Media queries para diseño responsivo
 - Uso de flexbox y grid para layouts modernos
 
 ### JavaScript
 - Código modular y comentado
 - Manejo de eventos eficiente
-- Manipulación del DOM optimizada
-- Animaciones de scroll con IntersectionObserver
-- Persistencia de datos con localStorage
+- Animaciones de scroll
 - Gestión de carrito de compras
 
 ## Guía de Instalación
@@ -74,25 +68,6 @@ phonehub/
    ```
 
 2. **Configura un servidor local:**
-   Puedes usar cualquiera de estos métodos:
-
-   - **Python:**
-     ```bash
-     # Python 3
-     python -m http.server
-     
-     # Python 2
-     python -m SimpleHTTPServer
-     ```
-
-   - **Node.js (con http-server):**
-     ```bash
-     # Instalar http-server globalmente (si no está instalado)
-     npm install -g http-server
-     
-     # Iniciar servidor
-     http-server
-     ```
 
    - **VSCode:** Instala la extensión "Live Server" y haz clic en "Go Live".
 
@@ -121,7 +96,3 @@ Para cambiar las fuentes:
 
 ### Productos
 Para añadir o modificar productos, edita la sección "Productos Destacados" en `index.html`.
-
-## Notas para el Taller
-
-Este proyecto fue diseña
