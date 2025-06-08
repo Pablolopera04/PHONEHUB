@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // =================== Variables globales ===================
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const navLinks = document.getElementById('navLinks');
-    const cartButtons = document.querySelectorAll('.btn-primary');
+    const cartButtons = document.querySelectorAll('.btn-primary, .btn-add-to-cart');
     const cartCount = document.createElement('span');
     let cartItems = 0;
     

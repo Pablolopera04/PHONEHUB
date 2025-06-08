@@ -13,14 +13,15 @@ phonehub/
 │   └── styles.css              # Estilos principales
 ├── js/
 │   └── main.js                 # JavaScript para la interactividad
-├── img/
-│   ├── hero-phone.jpg          # Imagen para la sección hero
-│   ├── phone-1.jpg             # Imagen del producto 1
-│   ├── phone-2.jpg             # Imagen del producto 2
-│   ├── phone-3.jpg             # Imagen del producto 3
-│   ├── avatar-1.jpg            # Avatar del testimonio 1
-│   ├── avatar-2.jpg            # Avatar del testimonio 2
-│   └── avatar-3.jpg            # Avatar del testimonio 3
+|
+├── iphone-15.html              #pagina producto
+|
+├── iphone-16.html              #pagina producto
+|
+├── iphone-16e.html             #pagina producto
+|
+├── terminos-y-condiciones.html #pagina producto
+|
 └── README.md                   # Este archivo
 ```
 
